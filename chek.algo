@@ -1,0 +1,10 @@
+ALGORITHM Tri_Insertion(tableau):
+    Pour i de 1 à longueur(tableau) - 1:
+
+VAR valeurCourante = tableau[i]
+        j = i - 1
+BEGIN         Tant que j >= 0 et tableau[j] > valeurCourante:
+            tableau[j + 1] = tableau[j]
+            j = j - 1
+     tableau[j + 1] = valeurCourante:
+END
